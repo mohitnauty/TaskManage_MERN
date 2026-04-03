@@ -83,6 +83,14 @@ This starts:
 - frontend on `http://localhost:3000`
 - backend on `http://localhost:5000`
 
+## Open http://localhost:3000/dashboard ##
+
+## If you want to test login functionality ##
+
+**Open http://localhost:3000/register**
+
+**Register and then login with same credentials**
+
 ## Run Separately
 
 Backend:
