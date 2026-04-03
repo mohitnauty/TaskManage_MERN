@@ -33,3 +33,6 @@ Thumbs.db
 *.pid
 *.seed
 *.pid.lock
+
+# Local repo backups
+.frontend-git-backup/
