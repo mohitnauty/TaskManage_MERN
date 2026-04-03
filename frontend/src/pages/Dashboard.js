@@ -54,13 +54,6 @@ export default function Dashboard() {
     fetchTasks();
   };
 
-  const improveTask = async (id) => {
-    setLoading(true);
-    await API.post(`/tasks/${id}/improve`);
-    fetchTasks();
-    setLoading(false);
-  };
-
   const toggleLogs = async (id) => {
     if (logs[id]) {
       setLogs({ ...logs, [id]: null });
@@ -135,14 +128,6 @@ export default function Dashboard() {
                     Complete
                   </Button>
                 )}
-
-                <Button
-                  size="small"
-                  variant="contained"
-                  onClick={() => improveTask(t._id)}
-                >
-                  Improve
-                </Button>
 
                 <Button
                   size="small"
