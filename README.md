@@ -115,6 +115,13 @@ The frontend is configured to call:
 http://localhost:5000/api
 ```
 
+## API URL's
+
+```text]
+Get all tasks: GET http://localhost:5000/api/tasks
+To Update Status: Body JSON {"status":"DONE"} PATCH http://localhost:5000/api/tasks/69cf405059ab301a0b0d7f8d/status
+```
+
 ## Available Scripts
 
 Root:
