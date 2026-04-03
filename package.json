@@ -1,0 +1,8 @@
+{
+  "name": "taskmanage-mern",
+  "private": true,
+  "scripts": {
+    "start": "node scripts/run-both.js",
+    "dev": "node scripts/run-both.js"
+  }
+}
