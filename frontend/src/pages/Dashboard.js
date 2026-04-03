@@ -79,7 +79,7 @@ export default function Dashboard() {
   return (
     <Container maxWidth="md" sx={{ mt: 4 }}>
       <Typography variant="h4" gutterBottom>
-        Task Manager Dashboard 🚀
+        Task Manager Dashboard
       </Typography>
 
       {/* Create Task */}

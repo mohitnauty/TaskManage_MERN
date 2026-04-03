@@ -12,7 +12,7 @@ export default function Login() {
         password
       });
 
-      // ✅ Save token
+      //  Save token
       localStorage.setItem("token", res.data.token);
 
       alert("Login successful");
